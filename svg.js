@@ -29,6 +29,7 @@ var svgCallback = function(e){
 
 var clearCallback = function(e){
     svg.innerHTML = "";
+    isFirst = 1;
 };
 
 clear.addEventListener("click", clearCallback);
